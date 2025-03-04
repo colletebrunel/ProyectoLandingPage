@@ -10,36 +10,171 @@
     </head>
 
     <body>
-
         <header>
-            <img src="img/Header/Logo.png" alt="Logo">
-            <p><a href="">LOGIN</a></p>
-            <img src="img/header/lineaVertical.png" alt="lineaVertical">
-            <p><a href="">SIGN UP</a></p>
-            <p><a href="#">ESP</a></p>
-            <p><a href="#">ENG</a></p>
-            <img src="img/header/menuHamburguesa.png" alt="Menu">
+            <nav>
+                <div>
+                    <!--Web-->
+                    <img id="logo" src="img/Header/Logo.png" alt="Logo">
+                    <!--Mobile-->
+                    <img id="logoMobile" src="img/header/logo-mobile.png" alt="Logo">
+                </div>
+                <div class="links">
+                    <div class="registro">
+                        <a href="" class="grey">LOGIN</a>
+                        <div id="bar"></div>                        
+                        <a href="">SIGN UP</a>
+                    </div>
+                    <div class="idiomas">
+                        <a href="" class="grey">ESP</a>
+                        <a href="">ENG</a>
+                        <img src="img/header/menuHamburguesa.png" alt="Menu">
+                    </div>
+                </div>
+            </nav>
         </header>
 
+        <img src="./img/banner/banner.png" alt="Fondo Casa" id="fondo">
 
-        <footer>
-            <div id="become">
-                <a href="#">Become a New Uniq Artist</a>
-                <a href="#">Become a Commercial Partner</a>
+        <section id="slider">
+            <div class="galeria">
+                <div class="slide3">
+                    <img src="./img/slider/Slide03.jpg" alt="">
+                    <div class="texto">
+                        <h5></h5>
+                        <h4></h4>
+                    </div>                    
+                </div>
+
+                <div class="slide2">
+                    <img src="./img/slider/Slide02.jpg" alt="">
+                    <div class="texto2">
+                        <h5 class="blanco">England</h5>
+                        <h4 class="blanco">Glasgow</h4>
+                    </div>
+                </div>
+
+                <div class="slide1">
+                    <img src="./img/slider/Slide01.jpg" alt="">
+                    <div class="texto">
+                        <h5>France</h5>
+                        <h4>Marseilles</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido">
+
+            </div>
+        </section>
+        
+        
+        <div id="titulosDevelopment">
+            <h3>Luxury properties</h3>
+            <h2>Developments</h2>
+        </div>
+
+        <section id="developments">
+            <div>
+                <img src="./img/developments/Dev01.jpg" alt="Sufside" srcset="">
+                <h5>The Surf Row</h5>
+                <h4>Sufside</h4>
             </div>
 
             <div>
-                <ul>
-                    <li>
-                        <a href="#">Suites</a>
-                    </li>
-                    <li>
-                        <a href="#">Cities</a>
-                    </li>
-                    <li>
-                        <a href="#">Villas</a>
-                    <li>
-                </ul>
+                <img src="./img/developments/Dev02.jpg" alt="" srcset="">
+                <h5>Indigo</h5>
+                <h4>Vero Beach</h4>
+            </div>
+
+            <div>
+                <img src="./img/developments/Dev03.jpg" alt="" srcset="">
+                <h5>Rosewood - Baha Mar</h5>
+                <h4>Nassau, the Bahamas</h4>
+            </div>
+
+            <div>
+                <img src="./img/developments/Dev04.jpg" alt="" srcset="">
+                <h5>St. Regis - The Astor Tower</h5>
+                <h4>Brickell, Miami</h4>
+            </div>
+
+            <div>
+                <img src="./img/developments/Dev05.jpg" alt="" srcset="">
+                <h5>Giralda Place</h5>
+                <h4>Coral Gables</h4>
+            </div>
+
+            <div>
+                <img src="./img/developments/Dev06.jpg" alt="" srcset="">
+                <h5>St. Regis - The William Tower</h5>
+                <h4>Brickell, Miami</h4>
+            </div>
+
+            <div>
+                <img src="./img/developments/Dev07.jpg" alt="" srcset="">
+                <h5>Solterre at Cockleshell Beach</h5>
+                <h4>St. Kitss and news</h4>
+            </div>
+
+            <div>
+                <img src="./img/developments/Dev08.jpg" alt="" srcset="">
+                <h5>Urbin</h5>
+                <h4>Coconut Grove</h4>
+            </div>
+        </section>
+
+        <footer>
+            <div id="recuadroGris">
+                <div>
+                    <p id="textoDescriptivo">
+                        <span>Join the list</span> <br/> 
+                        Unlock <br/>the exclusive world
+                    </p>
+                </div>
+                <div id="formulario">
+                    <p>Name:</p>
+                    <input type="email" id="correo" placeholder="Ex. name@mail.com">
+                    <button id="submit">Submit</button>
+                </div>
+                
+            </div>
+
+            <div id="recuadroNegro">
+                <div id="enlaces">
+                    <div id="primero">
+                        <ul>
+                            <li>Become a New Uniq Artist</li>
+                            <li>Become a Commercial Partner</li>
+                        </ul>
+                    </div>
+                    <div id="segundo">
+                        <ul>
+                            <li>Suites</li>
+                            <li>Cities</li>
+                            <li>Villas</li>
+                        </ul>
+                    </div>
+                    <div id="tercero">
+                        <ul>
+                            <li>Houses</li>
+                            <li>Apartments</li>
+                            <li class="separado">Contact us</li>
+                        </ul>
+                    </div>
+                    <div id="cuarto">
+                        <ul>
+                            <li id="callcenter">Call Center</li>
+                            <li id="telefono">+52 55 6840 4000</li>
+                            <li class="separado">concierge@uniqluxury.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="copyright">
+                    <p>
+                        Copyright © 2022
+                    </p>
+                </div>
+                
             </div>
         </footer>
 
